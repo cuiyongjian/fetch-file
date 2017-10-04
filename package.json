@@ -1,0 +1,36 @@
+{
+  "name": "nodelib-template",
+  "version": "1.0.0",
+  "description": "A scaffold for Node.js library",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel -d lib src",
+    "test": "npm run build && mocha --require babel-polyfill --require babel-register \"test/*.js\"",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cuiyongjian/nodelib-template.git"
+  },
+  "keywords": [
+    "node.js",
+    "library"
+  ],
+  "author": "sheldoncui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cuiyongjian/nodelib-template/issues"
+  },
+  "homepage": "https://github.com/cuiyongjian/nodelib-template#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-register": "^6.26.0",
+    "mocha": "^4.0.0"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "mkdirp": "^0.5.1",
+    "request": "^2.83.0"
+  }
+}
