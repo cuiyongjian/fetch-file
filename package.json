@@ -1,7 +1,7 @@
 {
   "name": "nodelib-template",
   "version": "1.0.0",
-  "description": "A scaffold for Node.js library",
+  "description": "A library to fetch or copy file from url or path",
   "main": "index.js",
   "scripts": {
     "build": "babel -d lib src",
@@ -10,18 +10,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cuiyongjian/nodelib-template.git"
+    "url": "git+https://github.com/cuiyongjian/fetch-file.git"
   },
   "keywords": [
-    "node.js",
-    "library"
+    "file",
+    "fetch",
+	"copy"
   ],
   "author": "sheldoncui",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cuiyongjian/nodelib-template/issues"
+    "url": "https://github.com/cuiyongjian/fetch-file/issues"
   },
-  "homepage": "https://github.com/cuiyongjian/nodelib-template#readme",
+  "homepage": "https://github.com/cuiyongjian/fetch-file#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.0",
