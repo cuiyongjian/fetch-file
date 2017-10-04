@@ -1,5 +1,5 @@
 {
-  "name": "nodelib-template",
+  "name": "fetch-file",
   "version": "1.0.0",
   "description": "A library to fetch or copy file from url or path",
   "main": "index.js",
