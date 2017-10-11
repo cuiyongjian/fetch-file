@@ -1,6 +1,6 @@
 {
   "name": "kitty-fetch-file",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A library to fetch or copy file from url or path",
   "main": "index.js",
   "scripts": {
